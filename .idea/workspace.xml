@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cd7b0af-7249-4437-8459-7ccc41920daa" name="Changes" comment="finally done">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/main/Price.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/main/Pricelist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/main/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task1/test/PricelistTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task1/Pricelist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/main/Pricelist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/main/Pricelist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1/test/PricelistTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1/test/PricelistTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +50,107 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.PricelistTests.addProductTest">
+    <configuration name="PricelistTests.addProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task1.test" />
+      <option name="MAIN_CLASS_NAME" value="task1.test.PricelistTests" />
+      <option name="METHOD_NAME" value="addProductTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PricelistTests.changeNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task1.test" />
+      <option name="MAIN_CLASS_NAME" value="task1.test.PricelistTests" />
+      <option name="METHOD_NAME" value="changeNameTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PricelistTests.changePriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task1.test" />
+      <option name="MAIN_CLASS_NAME" value="task1.test.PricelistTests" />
+      <option name="METHOD_NAME" value="changePriceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PricelistTests.codeAmountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task1.test" />
+      <option name="MAIN_CLASS_NAME" value="task1.test.PricelistTests" />
+      <option name="METHOD_NAME" value="codeAmountTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PricelistTests.removeProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task1.test" />
+      <option name="MAIN_CLASS_NAME" value="task1.test.PricelistTests" />
+      <option name="METHOD_NAME" value="removeProductTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PricelistTests.addProductTest" />
+        <item itemvalue="JUnit.PricelistTests.changeNameTest" />
+        <item itemvalue="JUnit.PricelistTests.changePriceTest" />
+        <item itemvalue="JUnit.PricelistTests.removeProductTest" />
+        <item itemvalue="JUnit.PricelistTests.codeAmountTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679626477410</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finally done">
+      <created>1679626527527</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679626527527</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

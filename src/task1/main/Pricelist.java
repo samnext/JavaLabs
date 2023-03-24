@@ -7,31 +7,37 @@ public final class Pricelist {
     private final Map<Product, Price> pricelist = new HashMap<>();
 
     //Add product and price
-    public void addProduct(Product product, Price price) {
+    public boolean addProduct(Product product, Price price) {
+        boolean isNotOkay = false;
         if (!pricelist.containsKey(product)) {
             pricelist.put(product, price);
-        } else throw new IllegalStateException("Product already exists in pricelist");
+            return true;
+        } else return false;
     }
 
     //Remove product
-    public void removeProduct(Product product) {
+    public boolean removeProduct(Product product) {
         if (pricelist.containsKey(product)) {
             pricelist.remove(product);
-        } else throw new IllegalArgumentException("There's no such product in pricelist to remove it");
+            return true;
+        } else return false;
     }
 
     //Change price of the product
-    public void changePrice(Product product, Price price) {
+    public boolean changePrice(Product product, Price price) {
         if (pricelist.containsKey(product)) {
             pricelist.replace(product, price);
-        } else throw new IllegalArgumentException("There's no such product in pricelist to change price of it");
+            return true;
+        } else return false;
     }
 
     //Change name of the product
-    public void changeName(Product product, String name) {
+    public boolean changeName(Product product, String name) {
+        boolean isNotOkay = false;
         if (pricelist.containsKey(product)) {
             product.changeName(name);
-        } else throw new IllegalArgumentException("There's no such product in pricelist to change the name");
+            return true;
+        } else return false;
     }
 
     //Define price of purchase by code and quantity
@@ -40,10 +46,8 @@ public final class Pricelist {
         double total = 0;
         for (Product product : pricelist.keySet()) {
             if (product.getCode() == code) {
-                int pennies = 0;
-                pennies = (amount * pricelist.get(product).getPennies()) / 100;
-                total = amount * pricelist.get(product).getRoubles() + pennies +
-                        (amount * pricelist.get(product).getPennies()) % 100 * 0.01;
+                total = ((double) pricelist.get(product).getRoubles() +
+                        (double) pricelist.get(product).getPennies() / 100) * amount;
             }
         }
         return total;
